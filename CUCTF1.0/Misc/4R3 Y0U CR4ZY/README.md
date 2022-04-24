@@ -1,15 +1,18 @@
+
+## Challenge: 4R3 Y0U CR4ZY 
+
 You'll get one png file which contains QR code. Scan it using **zbarimg** and a link to **google drive** will appear.
 
 **Download** the zip file from the google drive.
 
 **Crack** the zip file with any file cracking tool.
 
-After cracking the file, you'' get pass **qristal**.
+After cracking the file, you'll get pass **qristal**.
 
 **Extract** the zip file and you'll get a lot of png files which were all QR codes.
 
 
-Use zbarimg or any QR extracting tool
+### Use zbarimg or any QR scanning tool.
 ```bash
 zbarimg *.png > flags.txt
 
@@ -35,7 +38,7 @@ for i in sanitized:
 print(unique)
 ```
 
-**Output:**
+### Output:
 ```text
 ['CUCTF{This_is_fake_flag}', 'CUCTF{This_is_wrong_one}', 'CUCTF{Not_this_one}', 'CUCTF{can_you_scan_me?}'] 
 ```
